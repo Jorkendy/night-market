@@ -7,12 +7,12 @@ $(document).ready(function() {
 
   //Bar slider
   $('.owl-carousel').owlCarousel({
-      autoplay: true,
-      autoplayTimeout:3000,
     margin: 10,
     responsiveClass: true,
     dots: true,
     nav: true,
+    autoplay:true,
+    autoplayTimeout:5000,
     animateIn: 'fadeIn',
     animateOut: 'fadeOut',
     navText: ["<img src='img/arrow-left.png'  alt='' />","<img src='img/arrow-right.png'  alt='' />"],
