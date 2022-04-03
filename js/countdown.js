@@ -58,12 +58,12 @@ function countDownTimer(){
     
     // Figure out the time to launch
     timeToLaunch();
-    
+
     // Write to countdown component
     $( "#days .number" ).text(days);
-    $( "#hours .number" ).text(hrs);
-    $( "#minutes .number" ).text(min);
-    $( "#seconds .number" ).text(sec);
+    $( "#hours .number" ).text(hrs > 9 ? hrs : `0${hrs}`);
+    $( "#minutes .number" ).text(min > 9 ? min : `0${hrs}`);
+    $( "#seconds .number" ).text(sec > 9 ? sec : `0${sec}`);
     
     // Repeat the check every second
     setTimeout(countDownTimer,1000);
