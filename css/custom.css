@@ -12,7 +12,8 @@
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
     .frame-2-title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        padding-top: 30px;
     }
 }
 
