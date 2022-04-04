@@ -2,7 +2,7 @@
  * GLOBAL VARS
  * -------------------------- */
 // The date you want to count down to
-var targetDate = new Date("2022/04/7 00:00:00");   
+var targetDate = new Date("2022/04/19 00:00:00");
 
 // Other date related variables
 var days;
@@ -62,7 +62,7 @@ function countDownTimer(){
     // Write to countdown component
     $( "#days .number" ).text(days);
     $( "#hours .number" ).text(hrs > 9 ? hrs : `0${hrs}`);
-    $( "#minutes .number" ).text(min > 9 ? min : `0${hrs}`);
+    $( "#minutes .number" ).text(min > 9 ? min : `0${min}`);
     $( "#seconds .number" ).text(sec > 9 ? sec : `0${sec}`);
     
     // Repeat the check every second
